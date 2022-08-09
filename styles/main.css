@@ -1,0 +1,113 @@
+.wrapper1{
+  display: flex;
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: grey;
+
+  justify-content: space-around;
+  align-items: center;
+  display: none;
+}
+#validForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 380px;
+}
+input{
+
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+  margin: 0;
+}
+button{
+  width: 315px;
+  height: 50px;
+  background-color: rgb(158, 158, 230);
+  
+}
+
+.hide{
+  display: none;
+  position: absolute ;
+  margin-left: 10px;
+  margin-top: -20px ;
+  color: red;
+
+}
+.show{
+  display: flex;
+
+  position: absolute ;
+  margin-left: 10px;
+  margin-top: -20px ;
+  color: red;
+}
+.wrapper2{
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: grey;
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+}
+#validForm2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 280px;
+}
+#btnSignIn2{
+  background-color: rgb(45, 191, 57);
+}
+#signIn{
+  color: blue;
+  
+ 
+}
+#signIn:hover{
+ text-decoration-line: underline;
+}
+
+.wrapper3{
+  display: flex;
+  width: 200px;
+  height: 200px;
+  margin: 100px auto;
+  background-color: rgb(245, 242, 242);
+flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.user{
+  background-color: rgb(245, 242, 242);
+  width: 180px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.user img{
+  width: 100px;
+}
+#signUp2{
+  background-color: rgb(43, 189, 65);
+  width: 80%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#signUp2:hover{
+ cursor: pointer;
+ }
+ #signUp2:active{
+background-color: rgb(237, 57, 57);
+  }
